@@ -1,0 +1,23 @@
+# Yi-Lu Wu 2024
+# Get essentials for coding on Linux (CentOS 9 Stream)
+
+#!/bin/bash
+
+# for C/C++
+# - g++: The GNU C++ compiler.
+# - gcc: The GNU Compiler Collection, in case you need to compile C.
+# - kernel-devel: kernel development package, including headers and makefiles for building modules.
+# - make: GNU Make, this is used to build larger packages of software.
+sudo dnf install gcc gcc-c++ kernel-devel make
+
+# for Java
+# - openjdk: the OpenJDK (Open Java Development Kit)
+# - javac: Java Development Kit (JDK)
+sudo dnf install java-latest-openjdk
+sudo dnf install java-devel
+
+# for python
+sudo dnf install python3
+
+# for git
+sudo dnf install git

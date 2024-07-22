@@ -1,0 +1,36 @@
+# Yi-Lu Wu 2024
+# Download the vscode extensions
+
+#!/bin/bash
+
+# C/C++
+code --install-extension ms-vscode.cpptools-extension-pack
+code --install-extension formulahendry.code-runner
+
+# Java
+code --install-extension vscjava.vscode-java-pack
+# code --install-extension vmware.vscode-boot-dev-pack
+# code --install-extension vscjava.vscode-gradle
+# code --install-extension redhat.vscode-community-server-connector
+# code --install-extension redhat.vscode-server-connector
+# code --install-extension SonarSource.sonarlint-vscode
+
+# Python
+code --install-extension "ms-python.python"
+
+# Front-end
+code --install-extension esbenp.prettier-vscode 
+code --install-extension ritwickdey.liveserver
+code --install-extension glenn2223.live-sass
+code --install-extension sass-indented
+code --install-extension dsznajder.es7-react-js-snippets
+code --install-extension formulahendry.auto-complete-tag
+code --install-extension xabikos.javascriptsnippets
+# code --install-extension vue.volar
+# code --install-extension msjsdiag.vscode-react-native
+# code --install-extension dsznajder.es7-react-js-snippets
+
+# tools
+code --install-extension PKief.material-icon-theme
+code --install-extension eamodio.gitlens
+# code --install-extension ms-azuretools.vscode-docker
