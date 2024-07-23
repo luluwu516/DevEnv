@@ -54,7 +54,7 @@ It also helps me set up my Linux virtual machine, saving me time. I hope this ca
    chmod a+x vscode
    ```
 
-<img width="600" alt="Screenshot 2024-07-22 at 2 06 17 PM" src="https://github.com/user-attachments/assets/d5a08dd2-c9f1-4a8f-9c51-52c70c7dae57">
+<img width="682" alt="Screenshot 2024-07-22 at 2 06 17 PM" src="https://github.com/user-attachments/assets/2770aa0b-7d26-4b8f-bb05-5a4b4aa7f1d3">
 
 ### Step 3: Run the Script
 1. Run the script with the following command: `./[YOUR_SCRIPT_NAME].sh`
@@ -62,7 +62,8 @@ It also helps me set up my Linux virtual machine, saving me time. I hope this ca
    ./vscode.sh
    ```
 2. If you are running the `1-installation` or `2-vscode`, it will ask you, `Is this ok [y/N]:`. Answer `y` to agree on the installation.
-<img width="600" alt="Screenshot 2024-07-22 at 2 06 37 PM" src="https://github.com/user-attachments/assets/d336b61c-b2e3-4799-86f4-eca9670475e2">
+3. 
+<img width="682" alt="Screenshot 2024-07-22 at 2 06 37 PM" src="https://github.com/user-attachments/assets/ddb5872f-eb29-4fb4-abfd-fad3f1a7d503">
 
 ### Step 4: Verify the Installation
 
@@ -77,20 +78,20 @@ It also helps me set up my Linux virtual machine, saving me time. I hope this ca
    git --version
    ```
    
-   <img width="1200" alt="Screenshot 2024-07-22 at 4 04 32 PM" src="https://github.com/user-attachments/assets/5ecda411-d21d-4bbf-9561-7ecb2eae28b4">
+   <img width="1392" alt="Screenshot 2024-07-22 at 4 04 32 PM" src="https://github.com/user-attachments/assets/11eb2b92-f8eb-45f8-8b29-44c0a0cef6ca">
 
    If any of them return `command not found...`, it means there is an issue with the installation. You can copy the command to the terminal again. If an error message pops up, search for the message on Google or ask chatGPT for help. Problem-solving is also an important ability for a software programmer.
 
 3. For the `3-extensions` script, it's the same concept! Here is the outcome:
    
-   <img width="600" alt="Screenshot 2024-07-22 at 2 08 38 PM" src="https://github.com/user-attachments/assets/121011ee-a418-479e-8c1f-7f3cb53d736b">
+   <img width="682" alt="Screenshot 2024-07-22 at 2 08 38 PM" src="https://github.com/user-attachments/assets/0e3e1038-f57c-4f0f-b8a8-1126e45a189c">
 
 <br /> 
 
 ### Note: On the screenshot, why didn't I put `.sh` at the end of my script?
 It's okay to create a script without a specific extension, such as `vi vscode` instead of `vi vscode.sh`.
 
-<img width="600" alt="Screenshot 2024-07-22 at 3 30 27 PM" src="https://github.com/user-attachments/assets/03d55329-0ec9-402b-8fa6-752452ea323e">
+<img width="682" alt="Screenshot 2024-07-22 at 3 30 27 PM" src="https://github.com/user-attachments/assets/f9b5ef25-dc5c-4508-82e4-3f11bbe25a76">
 
 The `.sh` extension explicitly indicates that this file is a shell script. This makes it easier for users and system tools to identify the file type, and editors and command-line tools that recognize the .sh extension might handle it differently. Also, many text editors provide syntax highlighting based on the file extension, making it easier to read and edit the script.
 
