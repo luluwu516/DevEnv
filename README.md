@@ -2,21 +2,23 @@
 
 The script, `1-installation`, is designed to set up a development environment on a system that uses the RPM Package Manager (e.g., Fedora, CentOS)... for now! I will add other scripts for other operating systems in the future! It will download C/C++, Java, Python, and Git for you after executing the script. 
 
-If you also want Visual Studio Code as your text editor, the script `2-vscode` will install Visual Studio Code on your computer. 
+If you also want Visual Studio Code as your text editor, the script `2-vscode` will install Visual Studio Code on your Linux computer. 
 
-I also included the essentials and some useful VsCode extensions in the script `3-extensions`. Running the script will install all of them at once, saving you time. 
+I also included the essentials and some useful VsCode extensions in the script `3-extensions`. Running the script will install all of them at once. 
 
-The `all-in-one` script is for my students who want to set up their development environment without worries. I hope it helps. Happy coding!
+The `all-in-one` script is for my students who want to set up their development environment without worry. Most importantly, we can definitely finish the installation and explanation in one hour.
 
-<img width="1200" alt="Screenshot 2024-07-22 at 3 34 12 PM" src="https://github.com/user-attachments/assets/9391222f-6382-4213-9f07-60211fb43680">
+I hope they help. Happy coding!
+
+<img width="1200" alt="Screenshot 2024-07-22 at 3 34 12 PM" src="https://github.com/user-attachments/assets/61f0e296-9b3d-4d6a-aa91-fc792680796a">
 
 <br /> 
 
 ## Motivation
 
-I am a community college tutor (in 2023-2024). Students come to me to ask for help downloading the vscode for each semester. I thought, "This is a computer thing... it should be able to be solved with computer language." Recently, I have learned Linux and realized that a shell script can solve the problem! And here comes the solution! 
+I am a community college tutor (in 2023-2024). Students come to me to ask for help downloading the vscode for each semester. I thought, "This is a computer thing... it should be able to be solved with computer language." Recently, I have learned Linux and realized that a shell script can solve the problem! And here comes the solution!
 
-It also helps me set up my Linux virtual machine. Save time and have a better life.
+It also helps me set up my Linux virtual machine, saving me time. I hope this can save you time, too! 
 
 <br /> 
 
