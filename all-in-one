@@ -15,7 +15,7 @@ sudo dnf install gcc gcc-c++ kernel-devel make
 # for Java
 # - openjdk: the OpenJDK (Open Java Development Kit)
 # - javac: Java Development Kit (JDK)
-sudo dnf install java-latest-openjdk
+sudo dnf install java  # or java-[latest]-openjdk (ex: java-11-openjdk)
 sudo dnf install java-devel
 
 # for python
