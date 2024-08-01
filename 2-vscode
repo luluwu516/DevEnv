@@ -9,4 +9,4 @@ echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com
 
 # 2. update the package and install the vscode
 dnf check-update
-sudo dnf install code # or code-insiders
+sudo dnf install code -y # or code-insiders

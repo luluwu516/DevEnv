@@ -10,19 +10,19 @@
 # - gcc: The GNU Compiler Collection, in case you need to compile C.
 # - kernel-devel: kernel development package, including headers and makefiles for building modules.
 # - make: GNU Make, this is used to build larger packages of software.
-sudo dnf install gcc gcc-c++ kernel-devel make
+sudo dnf install gcc gcc-c++ kernel-devel make -y
 
 # for Java
 # - openjdk: the OpenJDK (Open Java Development Kit)
 # - javac: Java Development Kit (JDK)
-sudo dnf install java  # or java-[latest]-openjdk (ex: java-11-openjdk)
-sudo dnf install java-devel
+sudo dnf install java -y  # or java-[latest]-openjdk (ex: java-11-openjdk)
+sudo dnf install java-devel -y
 
 # for python
-sudo dnf install python3
+sudo dnf install python3 -y
 
 # for git
-sudo dnf install git
+sudo dnf install git -y
 
 
 ########## Install the vscode on Linux (CentOS 9 Stream) ##########
@@ -32,7 +32,7 @@ echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com
 
 # 2. update the package and install the vscode
 dnf check-update
-sudo dnf install code # or code-insiders
+sudo dnf install code -y # or code-insiders
 
 
 ########## Download the vscode extensions ##########
