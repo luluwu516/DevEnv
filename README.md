@@ -61,9 +61,7 @@ It also helps me set up my Linux virtual machine, saving me time. I hope this ca
    ```
    ./vscode.sh
    ```
-2. If you are running the `1-installation` or `2-vscode`, it will ask you, `Is this ok [y/N]:`. Answer `y` to agree on the installation.
-3. 
-<img width="682" alt="Screenshot 2024-07-22 at 2 06 37 PM" src="https://github.com/user-attachments/assets/ddb5872f-eb29-4fb4-abfd-fad3f1a7d503">
+2. Give it some time to install and Ta da! You've done it!
 
 ### Step 4: Verify the Installation
 
